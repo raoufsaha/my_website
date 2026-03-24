@@ -6,26 +6,28 @@ import WorkSection from "@/components/sections/WorkSection";
 import EducationSection from "@/components/sections/EducationSection";
 import ActivitiesSection from "@/components/sections/ActivitiesSection";
 import ContactSection from "@/components/sections/ContactSection";
+import ProjectSection from "@/components/sections/ProjectSection";
 import SocialLinks from "@/components/SocialLinks";
 
+
 export default function Home() {
-  const features = [
-    {
-      title: "Sleek, minimal UI",
-      description:
-        "A clean layout with readable typography and subtle depth (no gimmicks).",
-    },
-    {
-      title: "Subtle scroll motion",
-      description:
-        "Section headings and cards reveal as you scroll, designed to stay lightweight.",
-    },
-    {
-      title: "Markdown-first content",
-      description:
-        "Update your bio, work, and school from `content/*.md` without touching component code.",
-    },
-  ];
+  // const features = [
+  //   {
+  //     title: "Sleek, minimal UI",
+  //     description:
+  //       "A clean layout with readable typography and subtle depth (no gimmicks).",
+  //   },
+  //   {
+  //     title: "Subtle scroll motion",
+  //     description:
+  //       "Section headings and cards reveal as you scroll, designed to stay lightweight.",
+  //   },
+  //   {
+  //     title: "Markdown-first content",
+  //     description:
+  //       "Update your bio, work, and school from `content/*.md` without touching component code.",
+  //   },
+  // ];
 
   return (
     <div className="min-h-full bg-zinc-50 font-sans text-foreground dark:bg-black">
@@ -49,6 +51,12 @@ export default function Home() {
               className="text-foreground/70 hover:text-foreground"
             >
               Work
+            </a>
+            <a
+              href="#project"
+              className="text-foreground/70 hover:text-foreground"
+            >
+              Projects
             </a>
             <a
               href="#education"
@@ -83,7 +91,7 @@ export default function Home() {
             <SectionReveal>
               <div className="flex flex-col gap-4">
                 <p className="text-sm font-medium tracking-wide text-foreground/60">
-                  Honours mathematics student at University of Waterloo
+                  Honours Mathematics Student at University of Waterloo
                 </p>
                 <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
                   I value{" "}
@@ -92,14 +100,13 @@ export default function Home() {
                   <span className="text-foreground">follow-through</span>.
                 </h1>
                 <p className="max-w-2xl text-pretty text-zinc-600 dark:text-zinc-300">
-                  This site summarizes my work experience, education, and
-                  activities—and a bit about who I am. Content is easy to update
-                  from simple Markdown files.
+                  This site summarizes my work experience, education,
+                  activities, and a bit about who I am. 
                 </p>
               </div>
             </SectionReveal>
 
-            <div className="relative grid gap-4 sm:grid-cols-3">
+            {/* <div className="relative grid gap-4 sm:grid-cols-3">
               {features.map((f, idx) => (
                 <SectionReveal key={f.title} delayMs={idx * 120}>
                   <Card className="h-full p-5 transition-transform duration-300 hover:-translate-y-[2px] hover:opacity-95">
@@ -114,7 +121,7 @@ export default function Home() {
                   </Card>
                 </SectionReveal>
               ))}
-            </div>
+            </div> */}
 
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
@@ -135,6 +142,7 @@ export default function Home() {
 
         <AboutSection />
         <WorkSection />
+        <ProjectSection />
         <EducationSection />
         <ActivitiesSection />
         <ContactSection />

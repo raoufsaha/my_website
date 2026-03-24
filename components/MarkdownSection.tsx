@@ -36,7 +36,6 @@ export default async function MarkdownSection({
           {frontmatter.description}
         </p>
       ) : null}
-
       <div
         className={[
           "mt-6 text-pretty text-foreground/80 leading-relaxed",
