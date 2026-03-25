@@ -20,7 +20,7 @@ export default function ContactSection() {
                 Contact
               </h2>
               <p className="text-pretty text-zinc-600 dark:text-zinc-300">
-                Send a message using the form below, or email me directly.
+                Email me directly:
               </p>
             </div>
           </SectionReveal>
@@ -96,16 +96,9 @@ export default function ContactSection() {
               </div>
             ) : (
               <div className="rounded-2xl border border-black/5 bg-white/60 p-5 dark:border-white/10 dark:bg-black/30 lg:col-span-2">
-                <h3 className="text-lg font-semibold tracking-tight">
-                  Prefer email?
-                </h3>
-                <p className="mt-2 text-pretty text-foreground/70">
-                  Since you don’t have a form endpoint configured yet, email is
-                  the fastest way to reach you.
-                </p>
                 <a
                   href={`mailto:${emailFallback}`}
-                  className="mt-4 inline-flex items-center gap-2 text-sm font-semibold tracking-tight underline underline-offset-4 hover:opacity-90"
+                  className="inline-flex items-center gap-2 text-sm font-semibold tracking-tight underline underline-offset-4 hover:opacity-80"
                 >
                   {emailFallback}
                 </a>
