@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { SectionReveal } from "@/components/SectionReveal";
 import { Card } from "@/components/ui/Card";
+import { CoursesDropdown } from "@/components/ui/CoursesDropdown";
 
 export type TimelineItem = {
   title: string;
@@ -8,6 +9,7 @@ export type TimelineItem = {
   dateRange?: string;
   description?: ReactNode;
   href?: string;
+  courses?: string[];
 };
 
 export function Timeline({
@@ -53,6 +55,9 @@ export function Timeline({
                 <div className="text-pretty text-foreground/80 leading-relaxed">
                   {item.description}
                 </div>
+              ) : null}
+              {item.courses ? (
+                <CoursesDropdown courses={item.courses} />
               ) : null}
             </div>
           </Card>

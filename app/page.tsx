@@ -126,13 +126,13 @@ export default function Home() {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
               <a
                 href="#work"
-                className="inline-flex w-full items-center justify-center rounded-full bg-foreground px-5 py-2.5 text-background transition-transform hover:-translate-y-[1px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25 sm:w-auto"
+                className="inline-flex w-full items-center justify-center rounded-full bg-foreground px-5 py-2.5 text-background transition-transform hover:-translate-y-[2px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25 sm:w-auto"
               >
                 See my work
               </a>
               <a
                 href="mailto:saharaouf.w@gmail.com"
-                className="inline-flex w-full items-center justify-center rounded-full bg-foreground px-5 py-2.5 text-background transition-transform hover:-translate-y-[1px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25 sm:w-auto"
+                className="inline-flex w-full items-center justify-center rounded-full bg-foreground px-5 py-2.5 text-background transition-transform hover:-translate-y-[2px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25 sm:w-auto"
               >
                 Email me
               </a>
