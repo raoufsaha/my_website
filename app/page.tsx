@@ -94,10 +94,7 @@ export default function Home() {
                   Honours Mathematics Student at University of Waterloo
                 </p>
                 <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-                  I value{" "}
-                  <span className="text-foreground">clear thinking</span>,{" "}
-                  <span className="text-foreground">teamwork</span>, and{" "}
-                  <span className="text-foreground">follow-through</span>.
+                  First-year Math student. Aspiring developer. Always looking to innovate.
                 </h1>
                 <p className="max-w-2xl text-pretty text-zinc-600 dark:text-zinc-300">
                   This site summarizes my work experience, education,
