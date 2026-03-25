@@ -135,13 +135,18 @@ export default function ContactSection() {
               <SectionReveal delayMs={80}>
                 <div className="rounded-2xl border border-black/5 bg-white/60 p-5 dark:border-white/10 dark:bg-black/30">
                   <h3 className="text-lg font-semibold tracking-tight">
-                    What to include
+                    View Resume
                   </h3>
-                  <ul className="mt-2 list-disc pl-5 text-pretty text-foreground/70">
-                    <li>Your goal or question</li>
-                    <li>Any relevant links</li>
-                    <li>Timeline/urgency (optional)</li>
-                  </ul>
+                  <p className="mt-2 text-pretty text-foreground/70">
+                    Download my resume to see my experience, skills, and education.
+                  </p>
+                  <a
+                    href="/resume.pdf"
+                    download="Abderraouf_Saha_Resume.pdf"
+                    className="mt-4 inline-flex items-center justify-center rounded-full bg-foreground px-6 py-2.5 text-background transition-transform hover:-translate-y-[1px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25"
+                  >
+                    Download Resume
+                  </a>
                 </div>
               </SectionReveal>
             </div>
