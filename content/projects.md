@@ -1,6 +1,6 @@
 ---
 eyebrow: Projects
-title: hi
+title: Coding
 description: "Things I've worked on in my own time:"
 items:
   - title: p5 Tower Defense
