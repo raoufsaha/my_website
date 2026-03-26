@@ -11,7 +11,7 @@ items:
 
   - title: Root-Finding Methods in C++
     subtitle: Numerical algorithms with expression parser (C++)
-    dateRange: Jan 2025 – Feb 2025
+    dateRange: Jan 2026 – Feb 2026
     href: https://github.com/raoufsaha/root-finding-cpp
     description: "A comprehensive C++ implementation of classical root-finding algorithms: Bisection and Newton's Method featuring a built-in runtime expression parser that eliminates the need for recompilation. Includes configurable tolerance and iteration limits, per-iteration logging with error tracking, support for both analytical and numerical derivatives, comprehensive unit tests, and performance benchmarking demonstrating quadratic vs. linear convergence. Built entirely with standard library, no external dependencies."
 ---
