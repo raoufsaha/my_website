@@ -133,6 +133,14 @@ export default function Home() {
               >
                 Email me
               </a>
+              <a
+                href="https://raouf-spotify.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-full items-center justify-center rounded-full bg-[#1db954] text-black px-5 py-2.5 font-semibold transition-transform hover:-translate-y-[2px] hover:opacity-95 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20 dark:focus-visible:ring-white/25 sm:w-auto"
+              >
+                Check out what's playing!
+              </a>
             </div>
           </div>
         </section>
