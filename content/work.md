@@ -1,7 +1,7 @@
 ---
 eyebrow: Work
 title: Work experience
-description: Retail, customer service, and student leadership. Reliable teamwork and clear communication in fast-paced environments.
+description: 
 items:
   - title: Home Hardware
     subtitle: Sales Associate · Esterhazy, SK

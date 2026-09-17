@@ -1,7 +1,7 @@
 ---
 eyebrow: Projects
 title: Coding
-description: "Things I've worked on in my own time:"
+description: "Projects I worked on in my own time:"
 items:
   - title: p5 Tower Defense
     subtitle: p5.js game (JS/HTML)

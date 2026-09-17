@@ -91,10 +91,10 @@ export default function Home() {
             <SectionReveal>
               <div className="flex flex-col gap-4">
                 <p className="text-sm font-medium tracking-wide text-foreground/60">
-                  Honours Mathematics Student at University of Waterloo
+                  Data Science at University of Waterloo
                 </p>
                 <h1 className="text-4xl font-semibold leading-tight tracking-tight sm:text-5xl">
-                  First-year Math student. Aspiring developer. Always looking to innovate.
+                  Aspiring developer. Always looking to innovate.
                 </h1>
                 <p className="max-w-2xl text-pretty text-zinc-600 dark:text-zinc-300">
                   This site summarizes my work experience, education,
